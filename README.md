@@ -1,45 +1,22 @@
-# Flight Booking Project
+# Flight Booking (Java)
 
-A simple console-based flight booking system in Java.
+I built this small console app to practice OOP and collections. It lets me:
+- list available flights
+- book a seat (auto‑assign)
+- cancel a booking
+- check flight status
+- add a new flight and view customer details
 
-## Features
-- List available flights
-- Book a flight (auto-assign seat)
-- Cancel a booking
-- Check flight status
-- Manage flight schedules
-- View customer details
-
-## Requirements
-- Java 17+ (works on Java 23 as well)
-
-## Run locally
-From the project folder:
+## How I run it
+In the project folder (PowerShell on Windows):
 
 ```powershell
-# Compile to ./out
 javac -d out *.java
-
-# Run the app
 java -cp out Main
 ```
 
-You'll see a menu; enter numbers to navigate. Press `0` to exit.
+Then just follow the menu (type a number). Press `0` to exit.
 
-## Project structure
-```
-Airline.java
-Booking.java
-CrewMember.java
-Customer.java
-Flight.java
-FlightManager.java
-Main.java
-Pilot.java
-Schedule.java
-Seat.java
-Ticket.java
-```
+Requirements: Java 17+ (I’ve also used Java 23).
 
-## License
-Specify your preferred license (e.g., MIT). You can add a `LICENSE` file later.
+That’s it—simple and to the point.
