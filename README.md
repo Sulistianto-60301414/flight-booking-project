@@ -19,4 +19,4 @@ Then just follow the menu (type a number). Press `0` to exit.
 
 Requirements: Java 17+ (I’ve also used Java 23).
 
-That’s it—simple and to the point.
+
